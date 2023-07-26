@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES6",
+    "noEmitOnError": true
+  },
+  "files": [
+    "src/app.tsx"
+  ]
+}
