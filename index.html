@@ -9,21 +9,45 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous"
   >
+  <link rel="stylesheet" href="style.css">
   <title>TUTORIAL | TYPESCRIPT</title>
 </head>
 <body>
-  <h1 style="color: rgb(14, 1, 79);">
-    Welcome, This Typecript Tutotial.
-  </h1>
+  <div class="wrapper">
+    <h1>Finance Logger</h1>
 
-  <div class="container">
-    <h2>Conpteur</h2>
-    <button class="btn btn-primary" id="conpteur">Increment</button> :
-    <span>0</span>
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
   </div>
 
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Type:</label>
+        <select id="type">
+          <option value="invoice">Invoice</option>
+          <option value="payment">Payment</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>To / From:</label>
+        <input type="text" id="tofrom">
+      </div>   
+      <div class="field">
+        <label>Details:</label>
+        <input type="text" id="details">
+      </div>
+      <div class="field">
+        <label>Amount (£):</label>
+        <input type="number" id="amount">
+      </div>
+      <button>Add</button>
+    </form>
 
-  <!-- script -->
-  <script src="dist/app.js"></script>
+  </footer>
+
+  <script src='dist/app.js'></script>
 </body>
 </html>
