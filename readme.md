@@ -27,7 +27,7 @@ To get started with TypeScript and this repository, follow these steps:
 2. **Navigate to the Project**: Change your current directory to the repository's directory:
 
 ```bash
-  cd typescript-learning
+  cd TypeScript-tuto
 ```
 
 ## Contributing
